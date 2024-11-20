@@ -7,13 +7,19 @@ This project is a React.js-based Simple Calculator, designed to perform basic ar
 ## Key Features
 
 Arithmetic Operations: Supports addition, subtraction, multiplication, and division with precise results.
+
 Dynamic Operation History: Maintains a real-time history of performed operations, enabling users to review or refer to past calculations.
+
 Intuitive User Interface: Designed for ease of use with responsive design, making it accessible on both desktop and mobile devices.
+
 Real-Time Updates: The calculator dynamically updates results and history as users input or clear data.
+
 Clear and Manage History: Provides options to clear individual operations or reset the entire history.
 
 ## Technology Stack
 
 React.js: Core framework for building the UI.
+
 CSS: For styling and ensuring responsiveness.
+
 JavaScript (ES6+): For handling logic and operations.
