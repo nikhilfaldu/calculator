@@ -1,0 +1,52 @@
+/* Button.css */
+
+.Button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #61dafb;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .Button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.05);
+  }
+  
+  .Button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Button Color Adjustments */
+  
+  /* C Button Color Red */
+  .Button.Red {
+    background-color: rgb(255, 34, 34); /* "C" button in red */
+  }
+  
+  .Button.Red:hover {
+    background-color: rgb(214, 0, 0);
+    transform: scale(1.05);
+  }
+  
+  .Button.Equal {
+    background-color: rgb(34, 255, 34); /* "=" button in green */
+  }
+  
+  .Button.Equal:hover {
+    background-color: rgb(0, 214, 0);
+    transform: scale(1.05);
+  }
+
+  .Button.Yellow {
+    background-color: rgb(255, 255, 0); /* Buttons like /, *, -, +, %, del in yellow */
+  }
+
+  .Button.Yellow:hover {
+    background-color: rgb(207, 200, 0);
+    transform: scale(1.05);
+  }
+  
